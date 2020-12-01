@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div th:fragment="header" class="header-amazon">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" id="header-amazon">
+        <a class="navbar-brand" id="main-page-button" href="/"><div class="py-5 text-center">
+            <h3 class="display-9">Codecool Shop</h3>
+        </div></a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+
+            </div>
+        </div>
+        <div th:replace="shoppingcart.html :: cart"></div>
+    </nav>
+</div>
+
+</body>
+</html>

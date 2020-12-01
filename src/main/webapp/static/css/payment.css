@@ -1,0 +1,32 @@
+body {
+    background: #f5f5f5;
+}
+
+.rounded-lg {
+    border-radius: 1rem;
+}
+
+.nav-pills .nav-link {
+    color: #555;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+}
+
+#paypal {
+    position: absolute;
+    left: 250px;
+}
+
+#main-page {
+    position: absolute;
+    width: 300px;
+    left: 430px;
+}
+
+#text-container {
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+}

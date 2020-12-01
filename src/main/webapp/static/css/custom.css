@@ -1,0 +1,242 @@
+.glyphicon {
+    margin-right: 5px;
+
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+#scrolling-text{
+    overflow: scroll;
+    overflow-x: scroll;
+    height: 5.7rem;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.thumbnail {
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#category-title {
+    border: none;
+    font-size: x-large;
+    margin-bottom: 2px;
+}
+
+#header-amazon {
+    padding: 0rem 0rem 0rem 1rem;
+    max-height: 3.4rem;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.thumbnail img {
+    margin-top: 10px;
+}
+.divider {
+    border-top: 2px solid #007bff !important;
+}
+#main-page-button {
+    padding-left: 0.75rem;
+}
+.btn-success {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.search-button-container {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+#categ-button {
+    margin-right: 1rem;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.item.list-group-item {
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.item.list-group-item:nth-of-type(odd):hover, .item.list-group-item:hover {
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image {
+    margin-right: 10px;
+}
+
+.item.list-group-item .thumbnail {
+    margin-bottom: 0px;
+}
+
+.item.list-group-item .caption {
+    padding: 9px 9px 0px 9px;
+}
+
+.item.list-group-item:nth-of-type(odd) {
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after {
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img {
+    float: left;
+}
+
+.item.list-group-item:after {
+    clear: both;
+}
+
+.list-group-item-text {
+    margin: 0 0 11px;
+}
+
+.image {
+    max-width: 400px;
+}
+.item-left {
+    max-width: 70%;
+}
+.shopping-cart-item-title {
+    font-weight: bold;
+}
+.total-cart-price {
+    float: left;
+    max-width: 50%;
+    padding-left: 0.35rem;
+}
+.price-span {
+    font-size: 75%;
+}
+.jumbotron.text-center {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: "Franklin Gothic Medium Font";
+    font-weight: bolder;
+}
+
+.jumbotron {
+    padding: 2rem 1rem 0rem 0rem;
+}
+
+.fa-times-circle {
+    color: red;
+}
+a.dropdown-toggle  {
+    color: #fff;
+}
+.empty-basket-container {
+    width: 100%;
+    text-align: center;
+}
+.bg-dark {
+    background-color: #007bff !important;
+}
+.empty-basket {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 120%;
+    height: 5rem;
+    font-weight: bold;
+
+}
+.cart-bottom-text-center {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    padding-top: 1.60rem;
+}
+
+/* HEADER CONTENT STARTS FROM HERE */
+
+.bigicon {
+    color: #ffffff;
+}
+
+.mix {
+    min-height: 370px;
+}
+
+ul.dropdown-cart {
+    min-width: 250px;
+    border: 2px solid #007bff !important;
+    padding: 2px;
+    margin-left: 7px;
+    margin-top: 11px;
+    overflow: hidden;
+}
+
+ul.dropdown-cart li .item {
+    display: block;
+    padding: 3px 10px;
+    margin: 3px 0;
+
+}
+
+ul.dropdown-cart li .item:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left {
+    float: left;
+}
+
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info {
+    float: left;
+}
+
+ul.dropdown-cart li .item-left span.item-info {
+    margin-left: 10px;
+}
+
+ul.dropdown-cart li .item-left span.item-info span {
+    display: block;
+}
+
+ul.dropdown-cart li .item-right {
+    float: right;
+}
+
+ul.dropdown-cart li .item-right button {
+    margin-top: 14px;
+}
+
+
+/* HEADER CONTENT END HERE */
+
+
+.dropdown-container {
+    display: flex;
+    align-items: end;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.shopping-cart-container {
+    transform: translate3d(-105px, 12px, 0px);
+}
+
+.divider-line {
+    border: 2px solid #007bff;
+}
